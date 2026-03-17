@@ -1,6 +1,9 @@
-# OllamaRemotePad
+# ipad-remote-ollama-app
 
-Eine einfache iPad-App in SwiftUI, um auf eine remote installierte Ollama-Umgebung zuzugreifen.
+Eine iPad-App in SwiftUI, um auf eine remote installierte Ollama-Umgebung zuzugreifen.
+
+Repository:
+`Stephanhermann/ipad-remote-ollama-app`
 
 ## Funktionen
 
@@ -29,3 +32,12 @@ Eine einfache iPad-App in SwiftUI, um auf eine remote installierte Ollama-Umgebu
 - Fuer lokale oder unverschluesselte HTTP-Verbindungen ist `NSAllowsArbitraryLoads` aktiviert.
 - Wenn dein Ollama-Server abgesichert werden soll, setze besser einen HTTPS-Reverse-Proxy davor.
 - Im aktuellen Umfeld konnte ich das Projekt nicht mit `xcodebuild` bauen, weil nur die Command Line Tools aktiv sind und kein volles Xcode bereitsteht.
+
+## Lizenz
+
+MIT, siehe `LICENSE`.
+
+## Weitere Texte
+
+- Datenschutz: `PRIVACY.md`
+- App-Store- und Screenshot-Texte: `APP_STORE_TEXTS.md`
