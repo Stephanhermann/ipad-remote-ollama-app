@@ -1,9 +1,17 @@
 # ipad-remote-ollama-app
 
+![Platform](https://img.shields.io/badge/platform-iPadOS%2017+-0f172a)
+![SwiftUI](https://img.shields.io/badge/UI-SwiftUI-f97316)
+![License](https://img.shields.io/badge/license-MIT-2563eb)
+
 Eine iPad-App in SwiftUI, um auf eine remote installierte Ollama-Umgebung zuzugreifen.
 
 Repository:
 `Stephanhermann/ipad-remote-ollama-app`
+
+## Uebersicht
+
+Die App ist als iPad-Client fuer selbst gehostete oder im Netzwerk erreichbare Ollama-Server gedacht. Der Fokus liegt auf einem praktischen Tablet-Workflow mit Serverprofilen, Streaming, Spracheingabe und lokaler Speicherung.
 
 ## Funktionen
 
@@ -27,6 +35,11 @@ Repository:
 3. iPad-Simulator oder echtes iPad waehlen
 4. Server-URL auf deinen Ollama-Host setzen, zum Beispiel `http://192.168.1.10:11434`
 
+## Release
+
+- Aktuelle Release-Linie: `v0.1.0`
+- Aenderungen: `CHANGELOG.md`
+
 ## Hinweise
 
 - Fuer lokale oder unverschluesselte HTTP-Verbindungen ist `NSAllowsArbitraryLoads` aktiviert.
@@ -41,3 +54,4 @@ MIT, siehe `LICENSE`.
 
 - Datenschutz: `PRIVACY.md`
 - App-Store- und Screenshot-Texte: `APP_STORE_TEXTS.md`
+- Changelog: `CHANGELOG.md`
